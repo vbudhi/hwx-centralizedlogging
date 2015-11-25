@@ -639,10 +639,10 @@
   },
   "solr": {
     "server": "http://sandbox.hortonworks.com:8983/solr/",
-    "core_name": "hadoop_logs_shard1_replica1",
+    "core_name": "hadoop_logs",
     "core_list": [
-      "hadoop_logs_shard1_replica1",
-      "history_shard1_replica1"
+      "hadoop_logs",
+      "history"
     ],
     "global_params": "&df=id"
   }
